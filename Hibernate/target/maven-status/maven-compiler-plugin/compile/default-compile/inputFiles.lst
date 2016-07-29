@@ -1,8 +1,12 @@
+D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\util\SearchParam.java
 D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\dao\BookTypeDao.java
 D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\service\BookService.java
+D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\dao\BaseDao.java
 D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\dao\PubliserDao.java
+D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\util\Strings.java
 D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\dao\BookDao.java
-D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\pojo\BookType.java
 D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\pojo\Book.java
+D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\pojo\BookType.java
 D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\controller\BookController.java
 D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\pojo\Publisher.java
+D:\JavaSE\Spring+SpringMVC+Hibernate\src\main\java\com\kaishengit\util\Page.java

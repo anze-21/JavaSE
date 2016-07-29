@@ -6,8 +6,9 @@ import com.kaishengit.dao.PubliserDao;
 import com.kaishengit.pojo.Book;
 import com.kaishengit.pojo.BookType;
 import com.kaishengit.pojo.Publisher;
+import com.kaishengit.util.Page;
+import com.kaishengit.util.SearchParam;
 import org.springframework.transaction.annotation.Transactional;
-
 import javax.inject.Inject;
 import javax.inject.Named;
 import java.util.List;
@@ -26,26 +27,27 @@ public class BookService {
         bookDao.save(book);
 
     }
-    public List<Book> findAllBook(){
-        return bookDao.findAll();
-    }
-
-    public List<BookType> findAllBookType(){
-        return bookTypeDao.findAll();
-    }
-
-    public List<Publisher> findAllPublisher(){
-        return publiserDao.findAll();
-    }
 
     public void delBook(Integer id){
-        bookDao.del(id);
-    }
-    public void delBook(Book book){
-        bookDao.del(book);
+        bookDao.delete(id);
     }
     public Book findBookById(Integer id ){
         return bookDao.findById(id);
     }
 
+    public List<Book> findAllBook(){
+        return bookDao.findAll();
+    }
+
+    public Page<Book> findByPage(Integer pageNo, List<SearchParam> searchParamList){
+        return bookDao.findByPageNo(pageNo,5,searchParamList);
+    }
+
+    public List<BookType> findAllBookType() {
+        return bookTypeDao.findAll();
+    }
+
+    public List<Publisher> findAllPublisher() {
+       return publiserDao.findAll();
+    }
 }
