@@ -15,10 +15,10 @@
     <div class="well well-sm">
         <form method="get" class="form-inline">
             <div class="form-group">
-                <input type="text" placeholder="书籍名称" name="q_like_bookname" value="${bookname}" class="form-control">
+                <input type="text" placeholder="书籍名称" name="q_like_bookname" value="${q_like_bookname}" class="form-control">
             </div>
             <div class="form-group">
-                <input type="text" placeholder="最低价格" name="q_ge_bookprice" class="form-control"> - <input type="text" placeholder="最高价格" name="q_le_bookprice" class="form-control">
+                <input type="text" placeholder="最低价格" name="q_ge_bookprice" value="${q_ge_bookprice}" class="form-control"> - <input type="text" placeholder="最高价格" name="q_le_bookprice"  value="${q_le_bookprice}" class="form-control">
             </div>
             <%--<div class="form-group">
          <select name="type" class="form-control">

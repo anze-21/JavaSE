@@ -60,11 +60,13 @@ public class SearchParam {
 
                 SearchParam searchParam =new SearchParam();
                 searchParam.setProtertyName(propertyName);
-                searchParam.setValue(Strings.toUTF8(value));
+                value =Strings.toUTF8(value);
+                searchParam.setValue(value);
                 searchParam.setType(type);
 
 
                 searchParamList.add(searchParam);
+                request.setAttribute(queryString,value);
 
            }
         }
